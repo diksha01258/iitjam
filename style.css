@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.navbar > a{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+a:hover{
+    color: rgb(30, 143, 143);
+}
+.heading{
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    margin-top: 2.5rem;
+    text-align: center;
+    
+}
+.tableheading{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 3rem;
+    text-align: center;
+  
+}
+table, th, td {
+    border:1px solid rgb(79, 79, 79);
+    text-align: right;
+  }
+table{
+    width: 13vw;
+    margin: auto;
+    margin-top: 2rem;
+
+}
+@media only screen and (max-width: 600px) {
+    table{
+        width: 33vw;
+    }
+    #myBtn{
+        border: none;
+    }
+    .options {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: .5rem;
+        justify-content: center;
+        margin-top: 10px;
+        }
+        .cancelbtn, .signupbtn {
+            width: 100%;
+         }
+  }
+  #highlights > h2{
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  #highlights{
+    background: url(9161244.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#home{
+    background: url(graduating-time-covid-19-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color-burn;
+    
+
+}
+.questionpaper1 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    background: url(exam1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color-burn;
+    
+
+}
+.questionpaper2 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    background: url(exam3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: color-burn;
+
+}
+.questionpaper3 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    background: url(exam4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: color-burn;
+
+}
+.questionpaper4 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    background: url(exam2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color-burn;
+
+}
+.questionpaper5 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    background: url(9161244.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color-burn;
+
+}
+ol > li{
+    display: flex;
+    flex-direction: row;
+}
+
+.question {
+    margin-top: 20px;
+}
+
+.options {
+display: flex;
+flex-direction: row;
+gap: 2rem;
+justify-content: center;
+margin-top: 10px;
+
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+  }
